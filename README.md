@@ -88,3 +88,8 @@ make re run PRINT_CHECK=1 PRINT_ALL=1 TEST_STACK="1 3 5 4 2"
 ###result:
 
 ![image](https://user-images.githubusercontent.com/69306932/135731691-e2c1a137-88f8-41ff-a9eb-bc634662678b.png)
+
+# Project evaluation
+
+![image](https://user-images.githubusercontent.com/69306932/135732013-2fe020fd-dcef-4629-ad2d-25e504201331.png)
+
