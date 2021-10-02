@@ -46,17 +46,17 @@ Clone repository and then go into the created directory and run the following co
 ```
 make bonus
 ```
-
+# How to run program?
+for example:
 ```
 ./push_swap 1 3 5 4 2
 ```
-Ch
+# How to check program result?
 for example:
 ```
 ./push_swap 1 3 5 4 2 | ./checker 1 3 5 4 2
 ```
-
-
+# How to run python checker?
 ```
 make check
 ```
