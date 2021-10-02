@@ -51,6 +51,12 @@ for example:
 ```
 ./push_swap 1 3 5 4 2
 ```
+or
+```
+make run TEST_STACK="1 3 5 4 2"
+```
+###result:
+
 ![image](https://user-images.githubusercontent.com/69306932/135731419-0a0df9c1-eef3-485c-bb19-a7f6fb913375.png)
 
 # How to check program result?
@@ -58,17 +64,27 @@ for example:
 ```
 ./push_swap 1 3 5 4 2 | ./checker 1 3 5 4 2
 ```
+or
+```
+make test TEST_STACK="1 3 5 4 2"
+```
+###result:
+
 ![image](https://user-images.githubusercontent.com/69306932/135731444-afb399a8-72d1-4026-8a82-44d5f101cdc2.png)
 
 # How to run python checker?
 ```
 make check
 ```
+###result:
+
 ![image](https://user-images.githubusercontent.com/69306932/135731466-e9397750-0466-4580-be58-0802cebc0b7f.png)
 
 # also try
 ```
-make re PRINT_CHECK=1 PRINT_ALL=1
-./push_swap 1 3 5 4 2
+make re run PRINT_CHECK=1 PRINT_ALL=1 TEST_STACK="1 3 5 4 2"
 ```
+
+###result:
+
 ![image](https://user-images.githubusercontent.com/69306932/135731691-e2c1a137-88f8-41ff-a9eb-bc634662678b.png)

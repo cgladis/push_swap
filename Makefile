@@ -61,6 +61,9 @@ $(CHECKER_NAME): $(CHECKER_FILE) $(OBJ) $(HFILENAME) $(LIBFT) Makefile
 	@$(CC) $(FLAGS) $(LIBFT) $(OBJ) $(CHECKER_FILE) -o $(CHECKER_NAME)
 	@printf  "%-25s\033[32m[✔]\033[0m\n" "$(CHECKER_NAME): $@"
 
+run: all
+	./$(NAME) $(TEST_STACK)
+
 test: bonus
 
 	@printf  "\033[32mresult:\033[0m\n"
@@ -96,4 +99,4 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: clean fclean re bonus test check
+.PHONY: clean fclean re bonus test check run
