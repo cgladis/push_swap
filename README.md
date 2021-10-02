@@ -66,4 +66,9 @@ make check
 ```
 ![image](https://user-images.githubusercontent.com/69306932/135731466-e9397750-0466-4580-be58-0802cebc0b7f.png)
 
-
+# also try
+```
+make re PRINT_CHECK=1 PRINT_ALL=1
+./push_swap 1 3 5 4 2
+```
+![image](https://user-images.githubusercontent.com/69306932/135731691-e2c1a137-88f8-41ff-a9eb-bc634662678b.png)
